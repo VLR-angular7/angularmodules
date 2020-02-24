@@ -1,0 +1,6 @@
+<p>products works!</p>
+
+<ul>
+    <li *ngFor="let product of products"> {{product.name}} 
+        <button appHighlight (click)="gotoProductDetails()">Details</button>  </li>
+</ul>
